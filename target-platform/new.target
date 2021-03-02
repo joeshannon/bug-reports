@@ -15,10 +15,7 @@
 		<unit id="ch.qos.logback.slf4j" version="1.2.3.v20200428-2012"/>
 		<unit id="org.slf4j.bridge.jul" version="1.7.30.v20200204-2150"/>
 		<unit id="org.apache.commons.lang" version="2.6.0.v201404270220"/>
-	</location>
-	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/I20210223201916/repository"/>
-		<unit id="org.apache.xerces" version="2.12.1.v20210115-0812"/>
+		<unit id="org.apache.xerces" version="2.9.0.v201101211617"/>
 	</location>
 </locations>
 </target>
