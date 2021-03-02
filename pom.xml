@@ -12,10 +12,7 @@
 	</parent>
 
 	<modules>
-		<module>example.plugin1</module>
 		<module>example.plugin2</module>
-		<module>example.feature1</module>
-		<module>feature.based.product</module>
-		<module>plugin.based.product</module>
+		<module>target-platform</module>
 	</modules>
 </project>

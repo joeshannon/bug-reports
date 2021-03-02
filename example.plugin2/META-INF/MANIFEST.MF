@@ -6,3 +6,12 @@ Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: example.plugin2
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Export-Package: example.plugin2
+Require-Bundle: ch.qos.logback.classic;bundle-version="[1.0.7,2.0.0)",
+ ch.qos.logback.core;bundle-version="[1.0.7,2.0.0)",
+ org.apache.commons.lang;bundle-version="2.6.0",
+ org.apache.xerces;bundle-version="[2.9.0,3.0.0)",
+ org.eclipse.core.runtime;bundle-version="3.5.0"
+Joe-NotHaving: org.apache.commons.beanutils;bundle-version="1.9.1",
+ org.apache.commons.configuration;bundle-version="[1.10.0,1.11.0)",
+ jul.to.slf4j,
+ com.springsource.org.castor

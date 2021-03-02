@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+<target name="new" sequenceNumber="166">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.emf.sdk.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.sdk.feature.group" version="0.0.0"/>
+<repository location="https://download.eclipse.org/releases/2020-12"/>
+</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<repository location="https://download.eclipse.org/tools/orbit/downloads/drops/R20201130205003/repository/"/>
+		<unit id="ch.qos.logback.classic" version="1.2.3.v20200428-2012"/>
+		<unit id="ch.qos.logback.core" version="1.2.3.v20200428-2012"/>
+		<unit id="ch.qos.logback.slf4j" version="1.2.3.v20200428-2012"/>
+		<unit id="org.slf4j.bridge.jul" version="1.7.30.v20200204-2150"/>
+		<unit id="org.apache.commons.lang" version="2.6.0.v201404270220"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/I20210223201916/repository"/>
+		<unit id="org.apache.xerces" version="2.12.1.v20210115-0812"/>
+	</location>
+</locations>
+</target>
