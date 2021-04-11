@@ -6,7 +6,7 @@ Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: my.plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Import-Package: javax.xml.soap,
- org.apache.batik.anim;version="[1.9.0,1.10.0)",
+ org.apache.batik.anim;version="[1.13.0,1.14.0)",
  org.slf4j;version="1.7.30",
  org.yaml.snakeyaml.resolver;version="[1.27.0,2.0.0)"
 Require-Bundle: py4j-java
