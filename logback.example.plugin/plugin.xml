@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+>
+   <extension
+         id="producer"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-global"
+            thread="main"
+            visible="true">
+         <run
+               class="logback.example.plugin.LogProducer">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="producer"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="logback.example.plugin.producer"
+            name="producer">
+         <property
+               name="appName"
+               value="producer">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="consumer"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-global"
+            thread="main"
+            visible="true">
+         <run
+               class="logback.example.plugin.LogConsumer">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="consumer"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="logback.example.plugin.consumer"
+            name="consumer">
+         <property
+               name="appName"
+               value="consumer">
+         </property>
+      </product>
+   </extension>
+</plugin>
